@@ -6,9 +6,9 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Tobias Nadjib - Bürgermeisterkandidat für Gemeine Meine",
+  title: "Tobias Nadjib - Bürgermeisterkandidat für die Gemeine Meine",
   description:
-    "Kandidat für Gemeine Meine: Verantwortung. Menschen. Zukunft. Jetzt mitmachen!",
+    "Bürgermeisterkandidat für die Gemeine Meine: Verantwortung. Menschen. Zukunft. Jetzt mitmachen!",
   generator: "v0.app",
   icons: {
     icon: [
