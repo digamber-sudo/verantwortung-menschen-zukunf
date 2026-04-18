@@ -6,9 +6,9 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Tobias Nadjib - Bürgermeisterkandidat für Meißen",
+  title: "Tobias Nadjib - Bürgermeisterkandidat für Gemeine Meine",
   description:
-    "Kandidat für Meißen: Verantwortung. Menschen. Zukunft. Jetzt mitmachen!",
+    "Kandidat für Gemeine Meine: Verantwortung. Menschen. Zukunft. Jetzt mitmachen!",
   generator: "v0.app",
   icons: {
     icon: [
@@ -36,9 +36,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="font-sans antialiased">
-        {children}
-      </body>
+      <body className="font-sans antialiased">{children}</body>
     </html>
   );
 }
